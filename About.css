@@ -1,20 +1,65 @@
 h1
 {
 	color: white;
-	font-size: 64px;
+	font-size: 100px;
 	font-family: 'Sansita', sans-serif;
 	position: relative;
-	left: 480px;
+	top:10px;
+}
+
+h4
+{
+	color: white;
+	font-size: 50px;
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	left: 45px;
 	top:-50px;
 }
 
+h5{
+	color: white;
+	font-size: 64px;
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	left: 400px;
+	top:-90px;
+}
+
+h6{
+	color: white;
+	font-size: 20px;
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	left: 45px;
+	top:-50px;
+}
 
 #homeButton
 {
-	bottom: 0px;
-	left: 615px;
+	bottom: -70px;
+	left: 800px;
 	position: absolute;
 }
+
+
+img{
+
+	width:250px;
+	height:150px;
+	float: left;
+
+}
+
+#foodstagram
+{
+	color: white;
+	font-size: 50px;
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	left: 150px;
+}
+
 
 body
 {

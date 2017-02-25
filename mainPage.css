@@ -19,8 +19,9 @@ img{
 }
 body
 {
-	background-color: lightgrey;
+    background-color: rgb(250, 124, 124);
 }
+
 #top
 {
 	background-color: black
