@@ -74,12 +74,12 @@ body
  
 .menu > ul > li:hover > a, .menu > ul > .current-item > a {
 	float:left;
-    background: lightgrey;
+    background: rgb(250, 124, 124);
 }
 
 .menu2 > ul > li:hover > a, .menu2 > ul > .current-item > a {
 	float:right;
-    background: lightgrey;
+    background: rgb(250, 124, 124);
 }
 
 
@@ -109,7 +109,7 @@ body
     opacity:0;
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:grey;
+    background:rgb(250, 124, 124);
 }
 
 .sub-menu2 {
@@ -122,7 +122,7 @@ body
     opacity:0;
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
-    background:grey;
+    background:rgb(250, 124, 124);
     position:relative;
     bottom:150px;
     left:-200px;
@@ -156,13 +156,12 @@ body
 
  
 .sub-menu li a:hover, .sub-menu .current-item a {
-    background:#3e3436;
+    background:white;
     position:relative;
-    bottom: 900px;
 }
 
 .sub-menu2 li a:hover, .sub-menu2 .current-item a {
-    background:#3e3436;
+    background:white;
     position:relative;
 }
 
