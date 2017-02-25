@@ -1,7 +1,3 @@
-h1
-{
-	color:green;
-}
 h3
 {
 	color:grey;
@@ -11,6 +7,8 @@ img{
 
 	width:200px;
 	height:90px;
+	float: left;
+
 }
 body
 {
@@ -20,8 +18,7 @@ body
 {
 	background-color: black
 }
-#title1
+#foodstagram
 {
 	color: white;
->>>>>>> 7bc95448bfe1fcb8fc5d3533c05027f29186ab0d
 }
