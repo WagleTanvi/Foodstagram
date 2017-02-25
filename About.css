@@ -1,0 +1,22 @@
+h1
+{
+	color: white;
+	font-size: 64px;
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	left: 480px;
+	top:-50px;
+}
+
+
+#homeButton
+{
+	bottom: 0px;
+	left: 615px;
+	position: absolute;
+}
+
+body
+{
+	background-color: rgb(250, 124, 124);
+}
