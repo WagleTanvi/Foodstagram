@@ -4,8 +4,10 @@ h3
 	color:black;
 	margin: auto;
     width: 100%;
-    border: 3px solid green;
-    padding: 10px;
+    position: relative;
+    bottom: -40px;
+    font-size: 50px;
+    left: 20px;
 }
 
 img{
@@ -37,10 +39,26 @@ body
     position:relative;
     margin-top: -25px;
     font-size:19px;
+    bottom:-40px;
 }
  
+.menu2 > ul > li {
+    float:right;
+    display:inline-block;
+    position:relative;
+    margin-top: -25px;
+    font-size:19px;
+}
+
 .menu > ul > li > a {
 	float:left;
+    padding:0px 0px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+
+.menu2 > ul > li > a {
+	float:right;
     padding:0px 0px;
     display:inline-block;
     text-shadow:0px 1px 0px rgba(0,0,0,0.4);
@@ -50,28 +68,60 @@ body
 	float:left;
     background: lightgrey;
 }
+
+.menu2 > ul > li:hover > a, .menu > ul > .current-item > a {
+	float:right;
+    background: lightgrey;
+}
  
+
+
 /*----- Bottom Level -----*/
 .menu li:hover .sub-menu {
     z-index:1;
     opacity:1;
 }
  
+.menu2 li:hover .sub-menu2 {
+    z-index:1;
+    opacity:1;
+}
+
 .sub-menu {
 	float:left;
-    width:160%;
+    width:45%;
     padding:5px 0px;
-    position:absolute;
-    top:100%;
-    left:0px;
+    position:relative;
+    bottom:35px;
+    /*top:100%;*/
+    /*left:0px;*/
     z-index:-1;
     opacity:0;
     transition:opacity linear 0.15s;
     box-shadow:0px 2px 3px rgba(0,0,0,0.2);
     background:grey;
 }
+
+.sub-menu2 {
+	float:right;
+    width:50%;
+    padding:5px 0px;
+    position:relative;
+    right:5px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:grey;
+}
+
  
 .sub-menu li {
+    display:block;
+    font-size:16px;
+}
+
+.sub-menu2 li {
     display:block;
     font-size:16px;
 }
@@ -80,14 +130,36 @@ body
     padding:10px 30px;
     display:block;
 }
+
+.sub-menu2 li a {
+    padding:10px 30px;
+    display:block;
+}
  
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436;
 }
 
-#phone{
-	float:right;
-	width:500px;
-	height:500px;
+.sub-menu2 li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
 }
 
+
+#phone{
+  margin: 10 auto;
+  width: 35em;
+  height: 30em;
+  position:relative;
+  right: 50px;
+  bottom: 80px;
+}
+
+#New{
+	color:black;
+	margin: auto;
+    width: 80%;
+    position: relative;
+    right: 500px
+    bottom: -80px;
+    font-size: 50px;
+}
