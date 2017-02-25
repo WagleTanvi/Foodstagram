@@ -1,6 +1,10 @@
 h3
 {
 	color:white;
+	margin: auto;
+    width: 100%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 img{
@@ -75,3 +79,10 @@ body
 .sub-menu li a:hover, .sub-menu .current-item a {
     background:#3e3436;
 }
+
+#phone{
+	float:right;
+	width:500px;
+	height:500px;
+}
+
