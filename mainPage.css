@@ -1,12 +1,13 @@
+
 h3
 {
-	color:white;
+	color:black;
 }
 
 img{
 
-	width:200px;
-	height:100px;
+	width:250px;
+	height:150px;
 	float: left;
 
 }
@@ -22,11 +23,15 @@ body
 {
 	color: white;
 	font-size: 50px;
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	left: 150px;
 }
 .menu > ul > li {
     float:left;
     display:inline-block;
     position:relative;
+    margin-top: -25px;
     font-size:19px;
 }
  
