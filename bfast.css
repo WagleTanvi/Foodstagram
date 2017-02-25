@@ -1,0 +1,68 @@
+h2
+{
+	color: white;
+	font-size: 64px;
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	left: 480px;
+	top:-50px;
+}
+#foodstagram
+{
+	color: white;
+	font-size: 50px;
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	left: 150px;
+}
+img{
+
+	width:250px;
+	height:150px;
+	float: left;
+
+}
+
+#scrollingPics{
+    width:530px;
+    height:210px;
+    border: 13px solid #bed5cd;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#scrollingPics a {
+    display: inline-block;
+    float:left;
+}
+
+div#insideDiv{
+    width:800px;
+}
+
+body
+{
+	background-color: rgb(250, 124, 124);
+}
+
+#waffle
+{
+	width: 120px;
+	height: 120px;
+}
+
+#homeButton
+{
+	bottom: 0px;
+	left: 615px;
+	position: absolute;
+}
+
+#rectangle
+{
+	/*width: 400px;*/
+	/*height: 300px;*/
+	/*position: relative;*/
+	/*top: 10px;*/
+	/*left: 50px;*/
+	/*background-color: white;*/
+}
