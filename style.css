@@ -121,3 +121,9 @@ textarea{
 input{
 	font-size: 30px;	
 }
+#homeButton
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
