@@ -7,11 +7,25 @@ html{
 #container{
 	position: relative;
 	width: 1880px;
-	/*height: 140px;*/
+	height: 1240px;
 	background-color: rgb(250,124,124);
 	/*padding: 10px 10px 10px 10px;*/
 	border:2px solid rgb(0,0,0);
 	vertical-align: center;
+}
+#cool{
+	position: relative;
+	left: 200px;
+	font-size: 30px;
+	font-family: 'Sansita', sans-serif;
+}
+#love {
+	font-family: 'Sansita', sans-serif;
+	position: relative;
+	bottom: 200px;
+	left: 800px;
+	font-size: 30px;
+ 	
 }
 
 img{
@@ -64,8 +78,8 @@ button{
 	background: rgb(255,255,255); 
 	position: relative;
 	font-size: 30px;
-	bottom: 0px;
-	right: 170px;
+	bottom: 60px;
+	left: 240px;
 
 }
 h3{
@@ -106,4 +120,10 @@ textarea{
 }
 input{
 	font-size: 30px;	
+}
+#homeButton
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
 }

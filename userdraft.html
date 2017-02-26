@@ -2,11 +2,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<script> 
-	/*function save() {
-    	var y = document.getElementById("im").innerHTML;
-    	document.getElementById("cool").innerHTML="NICE";
-	}*/
+	<script>
+	var y = "";
+	//g = true; 
+	function save() {
+    	/*if (g == true){*/
+    		y = document.getElementById("im").value;
+    	var img = document.createElement("img");
+    	img.src = y;
+        img.height = 400; 
+        img.width = 400;
+        img.style.bottom = "700px";
+		img.style.left = "100px";
+        document.body.appendChild(img);
+		x = document.getElementById("cat").value;
+		document.getElementById("cool").innerHTML=x;
+		//var g = false;
+		/*}*/
+	
+
+	}
 	</script>
 	<meta charset="UTF-8">
 	<title>TITLE HERE</title>
@@ -22,7 +37,8 @@
 				<h1 id = "title1"><b>Foodstagram!</b></h1>
 			</div>
 				<h1 id= "title2">UPLOAD PAGE</h1>
-				<!-- <p id="cool">A Paragraph.</p> -->
+				<p  id="love">ONLY ONE SUBMISSION</p>
+				<p id="cool"></p>
 				<div id="rectangle"> </div>
 				<h3> Image Link <h3> 
 				<div id = "image"> 
@@ -33,10 +49,9 @@
 					<input id = "cat" type="text" placeholder="e.g. breakfast,lunch etc.">
 				</div>
 				<br>
-				<textarea cols = "50" rows = "10" placeholder="short description"></textarea>
+				<!-- <textarea cols = "50" rows = "10" placeholder="short description"></textarea> -->
 				<button type="submit" onClick= "save()">Submit</button>
-				<h5> Description <h5>
-
 		</div>
+		<button type="button" id="homeButton"><a href="README.html">Home</a> </button>
   	</body>
 </html>
