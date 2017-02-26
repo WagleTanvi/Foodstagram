@@ -37,9 +37,9 @@ h6{
 
 #homeButton
 {
-	bottom: -70px;
-	left: 800px;
 	position: absolute;
+	top: 0px;
+	left: 0px;
 }
 
 
