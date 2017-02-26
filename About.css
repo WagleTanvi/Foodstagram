@@ -38,9 +38,13 @@ h6{
 
 #homeButton
 {
+	font-family: 'Sansita', sans-serif;
+	font-size: 25px;
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	width: 100px;
+	height:40px;
 }
 
 

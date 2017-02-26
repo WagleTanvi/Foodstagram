@@ -4,9 +4,9 @@
 	<head>
 	<script>
 	var y = "";
-	//g = true; 
+	g = true; 
 	function save() {
-    	/*if (g == true){*/
+    	if (g == true){
     		y = document.getElementById("im").value;
     	var img = document.createElement("img");
     	img.src = y;
@@ -17,14 +17,14 @@
         document.body.appendChild(img);
 		x = document.getElementById("cat").value;
 		document.getElementById("cool").innerHTML=x;
-		//var g = false;
-		/*}*/
+		g = false;
+		}
 	
 
 	}
 	</script>
 	<meta charset="UTF-8">
-	<title>TITLE HERE</title>
+	<title>Foodstagram - Upload</title>
 	<meta name="description" content="FOR FOOD LOVERS">
 	<meta name="keywords" content="FOOD,SOCIAL MEDIA">
 	<link href="style.css" rel="stylesheet">
@@ -50,7 +50,7 @@
 				</div>
 				<br>
 				<!-- <textarea cols = "50" rows = "10" placeholder="short description"></textarea> -->
-				<button type="submit" onClick= "save()">Submit</button>
+				<button id= "submit" type="submit" onClick= "save()">Submit</button>
 		</div>
 		<button type="button" id="homeButton"><a href="README.html">Home</a> </button>
   	</body>
